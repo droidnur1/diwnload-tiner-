@@ -1,4 +1,4 @@
-<script>
+
 const downloadBtn = document.querySelector(".button");
 const fileLink = "";
 
@@ -25,4 +25,4 @@ const initTimer = () => {
     }, 1000);
 }
 
-downloadBtn.addEventListener("click", initTimer);</script>
+downloadBtn.addEventListener("click", initTimer);
